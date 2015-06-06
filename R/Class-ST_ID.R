@@ -1,4 +1,4 @@
-setClass("ST",
+setClass("ST_ID",
   slots = c(sp = "Spatial", time = "xts", ID = "character", 
   endTime = "POSIXct"),
   validity = function(object) {
